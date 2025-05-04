@@ -5,7 +5,12 @@ First of all, `clone` this project or `fork` it
 > [!NOTE]
 > While you can technically use this guide for every
 > service, it is recommended only for those you have the
-> `source code` availale
+> `source code` available.
+
+> [!TIP]
+> This method allows you to test the code using normal
+> `debugging` techniques and see step by step the
+> execution of `code`
 
 ## Prerequisites
 
@@ -61,13 +66,6 @@ workspace-root/
     ```
 
 ## Further steps
-
-- Comment out the CMD instruction in [`DOCKERFILE`](./../DOCKERFILE):
-
-    ```DOCKERFILE
-    #  Comment out the line below
-    CMD ["python", "app.py"]
-    ```
 
 - Add a command on the
 [`docker-compose.yml`](./../docker-compose.yml)
