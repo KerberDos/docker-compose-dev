@@ -1,0 +1,41 @@
+{
+    //  Displayed name
+    //      Change name here!!!
+    "name": "CCIT-Template",
+
+    //  Here put the service you are working on.
+    //
+    //  The name must be the same used in
+    //      the docker-compose.yml or
+    //      docker-compose.yaml
+    "service": "service-name",
+
+    //  Compose-File
+    //
+    //  Usually docker-compose.yml, but
+    //      also docker-compose.yaml
+    "dockerComposeFile": ["../docker-compose.yml"],
+
+
+    //  Customization
+    //
+    //  Here put all the needed extensions.
+    //      These two are recommended, but remember to
+    //      install language specific ones
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "fabiospampinato.vscode-highlight",
+                "fabiospampinato.vscode-todo-plus"
+            ]
+        }
+    },
+
+
+    //  The WorkspaceFolder inside container
+    //
+    //  Usually app is used, but change according to
+    //      docker-compose.yml
+    "workspaceFolder": "/app"
+
+}
