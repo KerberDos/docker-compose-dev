@@ -14,6 +14,7 @@ First of all, `clone` this project or `fork` it
 - [Be sure that `docker` can be run by `non-root` user](https://docs.docker.com/engine/install/linux-postinstall/)
 - Install this [Dev Container Extension](https://marketplace.visualstudio.com/items/?itemName=ms-vscode-remote.remote-containers)
 - Copy this repo
+- Copy all service files inside the new `workspace`
 
 > [!CAUTION]
 > Once you fix here, you need to copy your source code
